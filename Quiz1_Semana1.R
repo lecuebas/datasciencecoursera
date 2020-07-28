@@ -7,6 +7,7 @@
 #1ª etapa: dezipar o arquivo atribuindo ao objeto "dezip":
 
 getwd() #Verifica o diretório em que estamos trabalhando
+setwd() # Entra em uma pasta
 temp1<-"C:/Users/Leticia/Desktop/datasciencecoursera/quiz1_data.zip"
 unzip(temp1,list=TRUE) #Verifica o que tem dentro do zip
 unzip(temp1) #dezipa
